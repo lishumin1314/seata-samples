@@ -23,6 +23,6 @@ spring:
                 tx-service-group: my_test_tx_group
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: xxx
-        url: jdbc:mysql://xxx/seat-storage
-        username: xxx
+        password:
+        url: jdbc:mysql://localhost:3306/seata-storage?characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+        username: root

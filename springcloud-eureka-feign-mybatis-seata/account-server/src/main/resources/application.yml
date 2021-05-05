@@ -29,6 +29,6 @@ spring:
                 tx-service-group: my_test_tx_group
     datasource:
         driver-class-name: com.mysql.jdbc.Driver
-        password: xxx
-        url: jdbc:mysql://xxx/seat-account
-        username: xxx
+        password:
+        url: jdbc:mysql://localhost:3306/seat-account?characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+        username: root
